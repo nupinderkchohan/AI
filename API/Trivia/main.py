@@ -79,7 +79,7 @@ def run_quiz():
             print(f"Wrong! Correct answer: {correct}\n")
 
     print(f"Final Score: {score}/{len(questions)}")
-    print(f"Percentage: {score/len(questions)*100:.lf}%")
+    print(f"Percentage: {score/len(questions)*100:.1f}%")
 
 if __name__ == "__main__":
     run_quiz()
